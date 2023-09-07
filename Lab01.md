@@ -40,5 +40,5 @@ ssh -i ceg2350.pem ubuntu@44.216.84.103
 1. Command to clone your GitHub repository:
 
 ```
-**write command here so it will look fancy on GitHub**
+git clone git@github.com:johngantner/ceg2350.git
 ```
