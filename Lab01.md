@@ -1,29 +1,31 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: John Gantner
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers
 
-1.
-2.
-3.
+1. mkdir "DirA"
+2. mkdir "DirB"
+3. cd "Dir B"
 4.
-5.
+5. mv "Dir B" "DirB"
 
 ## Part 2 Answers
 
-1.
+1. touch test.txt
 2. File contents:
 
 ```
-**file contents here**
+Hello World
+My name is
+John Gantner
 ```
 
 ## Part 3 Answers
 
-1.
-2.
+1. cp "test.txt" ".hiddentext.txt"
+2. ls -a "DirA"
 
 ## Part 4 Answers
 
