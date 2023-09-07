@@ -8,7 +8,7 @@
 1. mkdir "DirA"
 2. mkdir "DirB"
 3. cd "Dir B"
-4.
+4. "DirA" uses a better naming convention without spaces or special characters.
 5. mv "Dir B" "DirB"
 
 ## Part 2 Answers
@@ -32,7 +32,7 @@ John Gantner
 1. SSH command to sign in to your AWS instance:
 
 ```
-**write command here so it will look fancy on GitHub**
+**ssh -i ceg2350.pem ubuntu@44.216.84.103**
 ```
 
 ## Part 5 Answers
