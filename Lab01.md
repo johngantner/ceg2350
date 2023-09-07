@@ -32,7 +32,7 @@ John Gantner
 1. SSH command to sign in to your AWS instance:
 
 ```
-**ssh -i ceg2350.pem ubuntu@44.216.84.103**
+ssh -i ceg2350.pem ubuntu@44.216.84.103
 ```
 
 ## Part 5 Answers
