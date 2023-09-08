@@ -8,7 +8,7 @@
 1. mkdir "DirA"
 2. mkdir "DirB"
 3. cd "Dir B"
-4. "DirA" uses a better naming convention without spaces or special characters.
+4. "DirA" uses a better naming convention because it doesn't use spaces or special characters.
 5. mv "Dir B" "DirB"
 
 ## Part 2 Answers
