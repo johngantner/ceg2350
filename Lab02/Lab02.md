@@ -18,14 +18,14 @@ and push them (sync) with GitHub
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
+1. sudo adduser jgantner
+2. /home/ubuntu/ceg2350/Lab02
 3.
-4.
-5.
-6.
-7.
-8.
+4. su jgantner
+5. cd
+6. 
+7. exit
+8. cd
 
 ## Part 3 Answers
 
