@@ -31,10 +31,10 @@ For each, write the command used or answer the question posed.
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
+1. sudo addgroup crew
+2. sudo usermod -a -G crew ubuntu, sudo usermod -a -G crew jgantner
+3. sudo chown -R :crew /home/ubuntu/DirA
+4. su jgantner
 5.
 6.
 
