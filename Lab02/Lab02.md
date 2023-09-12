@@ -1,7 +1,7 @@
 ## Lab 02
 
-- Name:
-- Email
+- Name: John Gantner
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers
 
