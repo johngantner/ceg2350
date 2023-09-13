@@ -42,16 +42,16 @@ For each, write the command used or answer the question posed.
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
+1. sudo touch sudowho.txt
+2. The default permissions of the file are to read and write.
+3. sudo vim sudowho.txt
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
-3. User:
-4. IdentityFile:
+1. `ssh` command before configuring `config` file: ssh -i ceg2350.pem ubuntu@44.216.84.103
+2. HostName: 44.216.84.103
+3. User: ubuntu
+4. IdentityFile: 
 5. `~/.ssh/config` contents:
 
 ```
