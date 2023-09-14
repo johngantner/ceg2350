@@ -20,10 +20,10 @@ For each, write the command used or answer the question posed.
 
 1. sudo adduser jgantner
 2. /home/ubuntu/ceg2350/Lab02
-3.
+3. No, ubuntu can't add files to jgantner's home directory. By default, only the owner of the home directory has write access to it.
 4. su jgantner
 5. cd
-6. 
+6. Yes, jgantner can add files to jgantner's home directory. Because jgantner is the owner of the home directory, jgantner has write permissions.
 7. exit
 8. cd
 
@@ -35,8 +35,8 @@ For each, write the command used or answer the question posed.
 2. sudo usermod -a -G crew ubuntu, sudo usermod -a -G crew jgantner
 3. sudo chown -R :crew /home/ubuntu/DirA
 4. su jgantner
-5.
-6.
+5. touch DirA/file.txt
+6. This was successful because we changed the owenership of the DirA directory to the crew group. Because both ubuntu and john are members of the crew group, meaning they have permission to modify files within DirA.
 
 ## Part 4 Answers
 
