@@ -12,7 +12,7 @@ and push them (sync) with GitHub
 1. Add a file for tracking: git add Lab02.md
 2. Commit changes: git commit -m "Added LAb02.md with LabTemplate contents"
 3. Sync local commits with GitHub: git push origin main
-4. Sync commits on GitHub to `clone`d repository:
+4. Sync commits on GitHub to `clone`d repository: git pull origin main
 
 ## Part 2 Answers
 
