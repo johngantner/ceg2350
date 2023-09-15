@@ -51,11 +51,14 @@ For each, write the command used or answer the question posed.
 1. `ssh` command before configuring `config` file: ssh -i ceg2350.pem ubuntu@44.216.84.103
 2. HostName: 44.216.84.103
 3. User: ubuntu
-4. IdentityFile: 
+4. IdentityFile: /home/jgantner/ceg2350.pem
 5. `~/.ssh/config` contents:
 
 ```
-Paste your config file entry here
+Host John
+        HostName 44.216.84.103
+        User ubuntu
+        IdentityFile /home/jgantner/ceg2350.pem
 ```
 
-6. `ssh` command after configuring `config` file::
+6. `ssh` command after configuring `config` file:: ssh John
