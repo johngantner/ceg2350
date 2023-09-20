@@ -1,17 +1,17 @@
 ## Lab 03
 
-- Name:
-- Email
+- Name: John Gantner
+- Email: 
 
 ## Part 1 Answers
 
 1. Verify here that input.txt made it to GitHub in your `Lab03` folder
-2.
-3.
+2. sort -n input.txt
+3. sort -n input.txt > output.txt
 
 ## Script Usage Guide
 
-1. How to run
+1. How to run: 
 2. What extensions are expected
 3. What is the output
 
