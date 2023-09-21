@@ -11,9 +11,9 @@
 
 ## Script Usage Guide
 
-1. How to run: 
-2. What extensions are expected
-3. What is the output
+1. How to run: ./sorting-party filename
+2. What extensions are expected: There are no specific extensions that it is looking for.
+3. What is the output: The output will be sorted.txt, this will contain the sorted data from the input file.
 
 ## Part 5 Answers
 
