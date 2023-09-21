@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if the filename ends with ".txt"
+if [[ "$1" != *.txt ]]; then
+  echo "Error: The filename must end with '.txt'"
+  exit 1
+fi
+
+# Sort the file and save the sorted data to sorted.txt
+sort "$1" > sorted.txt && echo "Sorting completed."
