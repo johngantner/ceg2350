@@ -5,7 +5,7 @@
 
 ## Part 1 Answers
 
-1. Verify here that input.txt made it to GitHub in your `Lab03` folder
+1. Verify here that input.txt made it to GitHub in your `Lab03` folder: Yes the input.txt file is in my Lab03 folder.
 2. sort -n input.txt
 3. sort -n input.txt > output.txt
 
@@ -30,4 +30,4 @@
 
 ## Extra Credit
 
-1. Note here if you did the extra credit so the tas can verify :)
+1. I did the extra credit.
