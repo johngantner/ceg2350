@@ -26,7 +26,7 @@
    - Difference: The difference is that this path contains /home/ubuntu/my_scripts.
 5. cp sorting-party /home/ubuntu/my_scripts
 6. chmod +x /home/ubuntu/my_scripts/sorting-party
-7. 
+7. The owner is allowed to run the script. Members also have the same permissions as the owner. Other users can also run the script but they do not have permission to modify or create new files in the directory.
 
 ## Extra Credit
 
