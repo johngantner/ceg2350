@@ -2,7 +2,8 @@
 
 # Check if the filename ends with ".txt"
 if [[ "$1" != *.txt ]]; then
-  echo "Error: The filename must end with '.txt'"
+  # Error message in red
+  echo -e "\e[31mError: The filename must end with '.txt'\e[0m"
   exit 1
 fi
 
