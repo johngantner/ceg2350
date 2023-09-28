@@ -12,18 +12,17 @@
 
 ## Part 2 Answers
 
-1. `sed -i 's/<\/[^>]*>//g' sedfile.md`
-2.
-3.
-4.
-5.
-6. 
-7. (Optional notes if needed)
+1. `sed -i 's/<\/[^>]*>//g' sedfile.html`
+2. `sed -i 's/\s*<li>/- /g' sedfile.html`
+3. `sed -i 's/<h1>/# /g' sedfile.html`
+4. `sed -i 's/<h2>/## /g' sedfile.html`
+5. `sed -i 's/<ul>//g' sedfile.html sed -i 's/<html>//g' sedfile.html`
+6. `sed -i 's/Batches/Matches/g' sedfile.html`
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
-5.
+1. `awk '/^Bi/ {print $1}' records.txt`
+2. ``
+3. ``
+4. ``
+5. ``
