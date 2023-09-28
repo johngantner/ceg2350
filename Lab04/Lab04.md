@@ -1,18 +1,18 @@
 ## Lab 04
 
-- Name:
+- Name: John Gantner
 - Email: 
 
 ## Part 1 Answers
 
-1. `place your commands between backtick characters`
-2. `so that they are pretty and readable in markdown`
-3. `replace these examples with your commands`
-4. `do this for rest of commands in lab`
+1. `grep -P 'x\d{4}$' grepdata.txt`
+2. `grep -P '[Cc][Aa]' grepdata.txt`
+3. ``
+4. `grep -P '\s2\d{3}' grepdata.txt`
 
 ## Part 2 Answers
 
-1.
+1. `sed -i 's/<\/[^>]*>//g' sedfile.md`
 2.
 3.
 4.
