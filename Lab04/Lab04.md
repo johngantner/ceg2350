@@ -7,7 +7,7 @@
 
 1. `grep -P 'x\d{4}$' grepdata.txt`
 2. `grep -P '[Cc][Aa]' grepdata.txt`
-3. ``
+3. `grep -P '\S+@\S+\.\w{3}' grepdata.txt`
 4. `grep -P '\s2\d{3}' grepdata.txt`
 
 ## Part 2 Answers
