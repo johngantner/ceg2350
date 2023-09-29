@@ -25,4 +25,4 @@
 2. `awk '$4==42 {print $3}' records.txt`
 3. `awk '$3~/.wright\.edu/ {print $2,$1, ":", $3}' records.txt`
 4. `awk '$6~/1234/ && $3~/.wright\.edu/ {print $2" favorite number is: "$4}' records.txt`
-5. `awk '{$4 = "N0T@PL@!NP@$$W0RD"} 1' records.txt > updaterecords.txt`
+5. `awk '{$6 = "N0T@PL@!NP@$$W0RD"} 1' records.txt > updaterecords.txt`
