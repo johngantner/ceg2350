@@ -1,7 +1,7 @@
 ## Lab 05
 
-- Name:
-- Email
+- Name: John Gantner
+- Email: gantner.6@wright.edu
 
 ## namechange Usage Guide
 
