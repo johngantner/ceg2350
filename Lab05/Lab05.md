@@ -22,3 +22,8 @@ Renamed "spellingerrrrrr.txt" to spellingerror.txt
  -r The replacement text for the new filename
 
 ## Examples:
+# Renames all files with jpg to jgp
+* ./bulkrenamer.sh -f '.jgp' -r '.jpg'  1-pic.jgp  2-pic.jgp  3-pic.jgp
+Renamed "1-pic.jgp" to "1-pic.jpg"
+Renamed "2-pic.jgp" to "2-pic.jpg"
+Renamed "3-pic.jgp" to "3-pic.jpg"
