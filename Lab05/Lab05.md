@@ -12,10 +12,12 @@
 
 ## Examples:
 * `./namechange.sh -f "\s" -r "-" "hello world.md"
-Renamed "hello world.md" to hello-world.md`
+  
+    - Renamed "hello world.md" to hello-world.md`
 
 *  `./namechange.sh -f "er+" -r "error" "spellingerrrrrr.txt"
-Renamed "spellingerrrrrr.txt" to spellingerror.txt`
+  
+    - Renamed "spellingerrrrrr.txt" to spellingerror.txt`
 ## bulkrenamer Usage Guide - Remove if not doing extra credit
 
 ## Example of usage:
