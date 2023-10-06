@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Function to print help information
 printHelp() {
   echo "Usage: namechange -f find -r replace \"string to modify\""
