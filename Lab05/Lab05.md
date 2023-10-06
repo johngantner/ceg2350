@@ -4,10 +4,11 @@
 - Email: gantner.6@wright.edu
 
 ## Example of usage:
+---
 * Usage: namechange -f find -r replace "string to modify"
  -f The text to find in the filename
  -r The replacement text for the new filename
-
+---
 ## Examples:
 * ./namechange.sh -f "\s" -r "-" "hello world.md"
 Renamed "hello world.md" to hello-world.md
