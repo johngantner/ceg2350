@@ -16,7 +16,7 @@ Renamed "hello world.md" to hello-world.md`
 Renamed "spellingerrrrrr.txt" to spellingerror.txt`
 ## bulkrenamer Usage Guide - Remove if not doing extra credit
 
-# Example of usage:
+## Example of usage:
 * `Usage: Usage: namechange -f find -r replace "string to modify"
  -f The text to find in the filename
  -r The replacement text for the new filename`
@@ -27,3 +27,7 @@ Renamed "spellingerrrrrr.txt" to spellingerror.txt`
  - Renamed "1-pic.jgp" to "1-pic.jpg"
  - Renamed "2-pic.jgp" to "2-pic.jpg"
  - Renamed "3-pic.jgp" to "3-pic.jpg"`
+2. `./bulkrenamer.sh -f '.foo' -r '.bar' 1-foo.txt 2-foo.txt 3-foo.txt
+ - Renamed "1-foo.txt" to "1.bar.txt"
+ - Renamed "2-foo.txt" to "2.bar.txt"
+ - Renamed "3-foo.txt" to "3.bar.txt"`
