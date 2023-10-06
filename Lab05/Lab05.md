@@ -5,7 +5,9 @@
 
 ## Example of usage:
 * `Usage: namechange -f find -r replace "string to modify"
- -f The text to find in the filename
+  
+ -f The text to find in the filename  
+ 
  -r The replacement text for the new filename`
 
 ## Examples:
@@ -18,7 +20,9 @@ Renamed "spellingerrrrrr.txt" to spellingerror.txt`
 
 ## Example of usage:
 * `Usage: namechange -f find -r replace "string to modify"
- -f The text to find in the filename
+  
+ -f The text to find in the filename  
+ 
  -r The replacement text for the new filename`
 
 ## Examples:
