@@ -29,6 +29,6 @@ Renames all files with jpg to jgp:
     - Renamed "3-pic.jgp" to "3-pic.jpg"`  
     
 `2. ./bulkrenamer.sh -f '.foo' -r '.bar' 1-foo.txt 2-foo.txt 3-foo.txt  
-    - Renamed "1-foo.txt" to "1.bar.txt"  
-    - Renamed "2-foo.txt" to "2.bar.txt"  
-    - Renamed "3-foo.txt" to "3.bar.txt"`  
+      - Renamed "1-foo.txt" to "1.bar.txt"  
+      - Renamed "2-foo.txt" to "2.bar.txt"  
+      - Renamed "3-foo.txt" to "3.bar.txt"`  
