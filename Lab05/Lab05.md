@@ -32,7 +32,7 @@ Renamed "spellingerrrrrr.txt" to spellingerror.txt`
     - Renamed "3-pic.jgp" to "3-pic.jpg"`  
 
 **Renames all files with foo to bar:**  
-     `- ./bulkrenamer.sh -f '.foo' -r '.bar' 1-foo.txt 2-foo.txt 3-foo.txt  
+./bulkrenamer.sh -f '.foo' -r '.bar' 1-foo.txt 2-foo.txt 3-foo.txt  
      
       - Renamed "1-foo.txt" to "1.bar.txt"
       
