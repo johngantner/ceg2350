@@ -4,11 +4,11 @@
 - Email: gantner.6@wright.edu
 
 ## Example of usage:
-* `Usage: namechange -f find -r replace "string to modify"
+* Usage: namechange -f find -r replace "string to modify"
   
    -f The text to find in the filename  
  
-   -r The replacement text for the new filename`
+   -r The replacement text for the new filename
 
 ## Examples:
 * `./namechange.sh -f "\s" -r "-" "hello world.md"
@@ -19,11 +19,11 @@ Renamed "spellingerrrrrr.txt" to spellingerror.txt`
 ## bulkrenamer Usage Guide - Remove if not doing extra credit
 
 ## Example of usage:
-* `Usage: namechange -f find -r replace "string to modify"
+* Usage: namechange -f find -r replace "string to modify"
   
- -f The text to find in the filename  
+   -f The text to find in the filename  
  
- -r The replacement text for the new filename`
+   -r The replacement text for the new filename
 
 ## Examples:
 **Renames all files with jpg to jgp:**  
