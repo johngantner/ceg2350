@@ -33,5 +33,5 @@
 
 ## Extra Credit - VM Manager
 
-- Write here what VM Manager software you installed
+- Write here what VM Manager software you installed: I installed Oracle VM Virtualbox
 - ![screenshot proof](../Lab06Screenshot.png)
