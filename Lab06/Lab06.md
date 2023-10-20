@@ -11,8 +11,8 @@
     - Number of logical cores: 4 logical cores.
 2. GPU info:
     - Integrated GPU info: Intel(R) UHD Graphics
-    - Dedicated GPU info: 
-    - Link to driver for primary GPU: 
+    - Dedicated GPU info: I dont have one.
+    - Link to driver for primary GPU: https://www.intel.com/content/www/us/en/support/articles/000090440/graphics.html
 3. Memory info:
     - Physical memory (RAM) size: 8.00 GB (7.75 GB usable)
     - Virtual memory size: 14,334 MB
