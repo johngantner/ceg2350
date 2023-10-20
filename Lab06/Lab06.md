@@ -34,4 +34,4 @@
 ## Extra Credit - VM Manager
 
 - Write here what VM Manager software you installed
-- ![screenshot proof](RELATIVE_PATH_TO_SCREENSHOT_IN_FOLDER)
+- ![screenshot proof](../Lab06Screenshot.png)
