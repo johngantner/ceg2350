@@ -16,13 +16,13 @@
 ![Screenshot of Summary](relative_path_to_image_filename_here)
 
 3. Install Guest OS:
-    - Start installation:
-    - Disk to install to:
-    - Partition size:
-    - Partition filesystem: 
+    - Start installation: To start the the installation I selected my VM and then clicked start.
+    - Disk to install to: /dev/sda3
+    - Partition size: 24G
+    - Partition filesystem: ext4
 4. Remove installation media:
-    - How to remove:
-    - How to verify: 
+    - How to remove: I went to the VM's settings, then went to storage, the under Controller: SATA I found the ISO. Then I right clicked it and selected remove attachment then clicked OK.
+    - How to verify: When booting up the VM boots directly into Ubuntu.
 5. Guest Additions:
     - How to insert Guest Additions:
     - How to run the Guest Additions installer for your Guest Operating System:
