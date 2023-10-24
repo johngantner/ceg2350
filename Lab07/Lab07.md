@@ -6,12 +6,12 @@
 ## Part 1 Answers
 
 1. Download an ISO:
-    - Linux distribution:
-    - URL to download it
+    - Linux distribution: Ubuntu desktop
+    - URL to download it: https://ubuntu.com/download/desktop
 2. Virtual Machine configurations:
-    - RAM -
-    - CPU - 
-    - Disk size - 
+    - RAM - 2048 MB
+    - CPU - 1 CPU
+    - Disk size - 25 GB
 
 ![Screenshot of Summary](relative_path_to_image_filename_here)
 
