@@ -1,7 +1,7 @@
 ## Lab 07
 
 - Name: John Gantner
-- Email: 
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers
 
@@ -24,9 +24,9 @@
     - How to remove: I went to the VM's settings, then went to storage, the under Controller: SATA I found the ISO. Then I right clicked it and selected remove attachment then clicked OK.
     - How to verify: When booting up the VM boots directly into Ubuntu.
 5. Guest Additions:
-    - How to insert Guest Additions:
-    - How to run the Guest Additions installer for your Guest Operating System:
-    - How to change resolution of the VM:
+    - How to insert Guest Additions: Turn on your VM, go to devices menu and then click "Insert Guest Additions CD Image".
+    - How to run the Guest Additions installer for your Guest Operating System: I cd into the directory where the Guest Additions CD is mounted and then I ran: sudo ./VBoxLinuxAdditions.run. After that I rebooted the VM.
+    - How to change resolution of the VM: In your VM right click on the desktop and then click on display settings. Here you can change your VM's resolution.
 6. VM Control:
     - Turning on the VM:
     - Turning off the VM:
