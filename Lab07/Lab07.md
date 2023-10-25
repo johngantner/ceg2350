@@ -28,9 +28,9 @@
     - How to run the Guest Additions installer for your Guest Operating System: I cd into the directory where the Guest Additions CD is mounted and then I ran: sudo ./VBoxLinuxAdditions.run. After that I rebooted the VM.
     - How to change resolution of the VM: In your VM right click on the desktop and then click on display settings. Here you can change your VM's resolution.
 6. VM Control:
-    - Turning on the VM:
-    - Turning off the VM:
-    - Restarting the VM:
+    - Turning on the VM: To turn on the VM, select the VM and click start.
+    - Turning off the VM: To turn off the VM, click the exit button at the top right, then "select power off the machine" and then click ok.
+    - Restarting the VM: To restart the VM, you can click the power icon at the top right, then select "power off/log out" and then an option to restart will appear.
 7. Proof of your VM running your Guest OS:
 
 ![Screenshot with name in file](relative_path_to_image_filename_here)
