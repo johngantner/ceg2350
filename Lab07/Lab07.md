@@ -33,7 +33,7 @@
     - Restarting the VM: To restart the VM, you can click the power icon at the top right, then select "power off/log out" and then an option to restart will appear.
 7. Proof of your VM running your Guest OS:
 
-![Screenshot with name in file](./images/Lab07P2.png)
+![Screenshot with name in file](Images/Lab07P2.png)
 
 
 ## Part 2 Answers
