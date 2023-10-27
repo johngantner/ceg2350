@@ -39,5 +39,5 @@
 ## Part 2 Answers
 
 1. How to change your desktop background in your VM: To change the desktop background on the VM, you first right click on the desktop and then select chenage background. Here you can change the background image on your VM's desktop.
-2. How to install VSCode in your VM:
+2. How to install VSCode in your VM: I installed VSCode on my VM by going into the terminal and running this command "sudo snap install --classic code".
 3. How to connect to your AWS instance from your VM using `ssh`:
