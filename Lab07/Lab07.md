@@ -13,7 +13,7 @@
     - CPU - 1 CPU
     - Disk size - 25 GB
 
-![Screenshot of Summary](images/Lab07.png)
+![Screenshot of Summary](Images/Lab07.png)
 
 3. Install Guest OS:
     - Start installation: To start the the installation I selected my VM and then clicked start.
