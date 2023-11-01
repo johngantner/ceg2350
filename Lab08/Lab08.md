@@ -13,15 +13,19 @@
    - `n`: Allows user to create a new partition.
    - `i`: Displays detailed partition information.
    - `w`: Writes table to the disk and exits, saves the changes.
-4. Using the `gdisk` utility on the disk: sudogdisk /dev/xvdb
+4. Using the `gdisk` utility on the disk: sudo gdisk /dev/xvdb
 5. sudo mkfs.ext4 /dev/xvdb
-6.
-7.
+6. sudo mkdir /mnt/expanse
+7. sudo mount /dev/xvdb /mnt/expanse
 8. Skip - trust you to do it ;)
-9.
-10.
-11.
-12.
+9. sudo strings /dev/xvdb
+10. sudo rm file1.txt
+   - After deleting my file, it is still showing up in when I run strings.
+11. 
+12. 
+13. 
+14.
+15.
 
 ## Part 2 Answers
 
