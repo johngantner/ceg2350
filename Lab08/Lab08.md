@@ -5,14 +5,14 @@
 
 ## Part 1 Answers
 
-1. Disks:**According to lsblk the disk's attached to my system are xvda and xvdb.**
-2. Unpartitioned disk: `xvdb`
+1. Disks: **According to lsblk the disk's attached to my system are xvda and xvdb.**
+2. Unpartitioned disk: **xvdb**
 3. `gdisk` main menu options
-   - p: `Prints the partition table.`
-   - o: `Creates a new empty GUID partition table.`
-   - n: `Allows user to create a new partition.`
-   - i: `Displays detailed partition information.`
-   - w: `Writes table to the disk and exits, saves the changes.`
+   - `p`: **Prints the partition table.**
+   - `o`: **Creates a new empty GUID partition table.**
+   - `n`: `Allows user to create a new partition.`
+   - `i`: `Displays detailed partition information.`
+   - `w`: `Writes table to the disk and exits, saves the changes.`
 4. Using the `gdisk` utility on the disk: `sudo gdisk /dev/xvdb`
 5. `sudo mkfs.ext4 /dev/xvdb1`
 6. `sudo mkdir /mnt/expanse`
