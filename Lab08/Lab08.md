@@ -5,7 +5,7 @@
 
 ## Part 1 Answers
 
-1. Disks: `According to lsblk the disk's attached to my system are xvda and xvdb.`
+1. Disks:**According to lsblk the disk's attached to my system are xvda and xvdb.**
 2. Unpartitioned disk: `xvdb`
 3. `gdisk` main menu options
    - p: `Prints the partition table.`
