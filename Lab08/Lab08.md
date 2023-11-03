@@ -5,7 +5,7 @@
 
 ## Part 1 Answers
 
-1. Disks: According to lsblk the disk's attsched to my system are xvda and xvdb.
+1. Disks: According to lsblk the disk's attached to my system are xvda and xvdb.
 2. Unpartitioned disk: xvdb
 3. `gdisk` main menu options
    - `p`: Prints the partition table.
@@ -14,19 +14,15 @@
    - `i`: Displays detailed partition information.
    - `w`: Writes table to the disk and exits, saves the changes.
 4. Using the `gdisk` utility on the disk: sudo gdisk /dev/xvdb
-5. sudo mkfs.ext4 /dev/xvdb
+5. sudo mkfs.ext4 /dev/xvdb1
 6. sudo mkdir /mnt/expanse
-7. sudo mount /dev/xvdb /mnt/expanse
+7. sudo mount /dev/xvdb1 /mnt/expanse
 8. Skip - trust you to do it ;)
-9. sudo strings /dev/xvdb
+9. sudo strings /dev/xvdb1
 10. sudo rm file1.txt
    - After deleting my file, it is still showing up when I run strings.
-11. 
-12. 
-13. 
-14.
-15.
-
+11. To truly delete a file, you can run the command shred. An example of this command is: shred -u -z -n 35 example.txt. -u removes the file after overwriting, -z adds a final overwrite with zeros to hide shredding, and -n specifies the number of times to overwrite the file content. After using shred to delete a file you can confirm it's deleted by using the command 'photorec'. If the file was deleted, this tool should not be able to recover it.
+12. When you unmount a partition its no longer accessible, so trying to interact with the files and folders on an unmounted partition will not work.
 ## Part 2 Answers
 
 1. echo "Hello world this is John." > original.txt
@@ -53,5 +49,5 @@
 Line added to `/etc/fstab`:
 
 ```
-Insert line here
+/dev/xvdb1 /mnt/expanse ext4 defaults 0 0
 ```
