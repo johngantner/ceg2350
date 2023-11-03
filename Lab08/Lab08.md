@@ -5,11 +5,11 @@
 
 ## Part 1 Answers
 
-1. Disks: **According to lsblk the disk's attached to my system are xvda and xvdb.**
-2. Unpartitioned disk: **xvdb**
+1. Disks: `According to lsblk the disk's attached to my system are xvda and xvdb.`
+2. Unpartitioned disk: `xvdb`
 3. `gdisk` main menu options
-   - `p`: **Prints the partition table.**
-   - `o`: **Creates a new empty GUID partition table.**
+   - `p`: `Prints the partition table.`
+   - `o`: `Creates a new empty GUID partition table.`
    - `n`: `Allows user to create a new partition.`
    - `i`: `Displays detailed partition information.`
    - `w`: `Writes table to the disk and exits, saves the changes.`
