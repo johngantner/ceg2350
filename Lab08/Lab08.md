@@ -1,7 +1,7 @@
 ## Lab 08
 
 - Name: John Gantner
-- Email: 
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers
 
@@ -40,9 +40,9 @@
 5. Command to create a copy of `original.txt`: cp original.txt copied.txt
    - Does modifying the copied file modify `original.txt`? Modifying the copied file won't affect original.txt. Copies are separate files with different inodes and storage.
 6. Command to move `original.txt` to another directory: mv original.txt throwaway/
-   - Does it have the same inode? Moving the file does not change the inode number.
-   - Was the hard link you created affected? Hard links created earlier will not be affected because they refer to the inode itself. 
-   - Was the symbolic link you created affected? The symbolic links is broken. This is because it is pointing to the old path of `original.txt`.
+   - Does it have the same inode? `Moving the file does not change the inode number.`
+   - Was the hard link you created affected? `Hard links created earlier will not be affected because they refer to the inode itself.`
+   - Was the symbolic link you created affected? `The symbolic links is broken. This is because it is pointing to the old path of original.txt`.
 
 ## Extra Credit Answers
 
