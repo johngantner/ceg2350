@@ -10,29 +10,29 @@
 ## Part 2 Answers
 
 1. Getting started
-   - Command to find the PID:
-   - PID of "Terminal A":
-   - PID of "Terminal B":
+   - Command to find the PID: ps -o pid,ppid,cmd -p $$
+   - PID of "Terminal A": 828
+   - PID of "Terminal B": 951
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script:
-   - Command to kill script:
-   - Effects of running the script:
+   - PID of script: 967
+   - Command to kill script: kill 967
+   - Effects of running the script: No, you cannt use Terminal B with infinity running. However, once I ran the kill command, I was able to use Terminal B.
 3. Using `source` to run `infinity` in Terminal B
    - PID of script:
    - Command to kill the script:
    - Effects of killing the script:
 4. Running `infinity` as a background job in Terminal B
    - Command to run script in background:
-   - Job ID of script:
-   - PID of script:
-   - Command to kill script via job id:
-   - Effects of exiting terminal:
+   - Job ID of script: 1
+   - PID of script: 827
+   - Command to kill script via job id: kill %1
+   - Effects of exiting terminal: If you close Terminal B the job will not continue running. Closing the terminal will end the session, which will also terminate the background job, which in this case is the infinity script.
 5. Run `infinity` in a `screen` or `tmux` session
-   - Command(s) to run `infinity` in a screen session:
-   - Detach from `screen` / `tmux` session:
-   - Command to show `screen` / `tmux` sessions:
-   - Effects of exiting terminal:
-   - Command / steps to kill the `screen` / `tmux` session:
+   - Command(s) to run `infinity` in a screen session: ./infinity.sh
+   - Detach from `screen` / `tmux` session: I clicked Ctrl+A followed by Ctrl+D
+   - Command to show `screen` / `tmux` sessions: tmux new-session -s Lab09
+   - Effects of exiting terminal: If you close Terminal B, the screen session will continue running. The session continues even if the terminal is closed because the sessions will run independently of the terminal that started them. 
+   - Command / steps to kill the `screen` / `tmux` session: tmux kill-session -t Lab09
 
 ## Part 3 Answers
 
