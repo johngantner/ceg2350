@@ -36,10 +36,10 @@
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
+1. git branch updates
+2. git checkout updates
+3. nano Infinity.sh. I wrote the comment "Hi this is John".
+4. git add infinity, git commit -m "Added comments to infinity.sh", git push origin updates
 5. Confirmed?
 6.
 7.
