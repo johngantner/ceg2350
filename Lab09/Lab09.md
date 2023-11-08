@@ -38,8 +38,8 @@
 
 1. git branch updates
 2. git checkout updates
-3. nano Infinity.sh. I wrote the comment "Hi this is John".
-4. git add infinity, git commit -m "Added comments to infinity.sh", git push origin updates
+3. nano infinity.sh. I wrote the comment "Hi this is John".
+4. git add infinity.sh, git commit -m "Added comments to infinity.sh", git push origin updates
 5. Confirmed? Yes, my updates to infinity.sh exist in the updates branch.
 6. git checkout main
 7. git merge updates
