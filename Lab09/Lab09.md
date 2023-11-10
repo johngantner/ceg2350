@@ -20,7 +20,7 @@
 3. Using `source` to run `infinity` in Terminal B
    - PID of script: `1659`
    - Command to kill the script: `pkill -f 'infinity.sh'`
-   - Effects of killing the script: `Killing the script should'nt affect other processes, unless the processes are conected or dependent on the script.`
+   - Effects of killing the script: `Killing the script shouldn't affect other processes, unless the processes are conected or dependent on the script.`
 4. Running `infinity` as a background job in Terminal B
    - Command to run script in background: `./infinity.sh &`
    - Job ID of script: `1`
