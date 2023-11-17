@@ -1,7 +1,7 @@
 ## Lab 10
 
 - Name: John Gantner
-- Email:
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers
 
@@ -19,7 +19,7 @@
 
 ## Part 3 Answers
 
-- Add your Makefile to your Lab10 folder in GitHub
+- Add your Makefile to your Lab10 folder in GitHub. 
 
 ## Extra Credit - Dependent Answers - Delete the section if not doing :)
 
@@ -27,37 +27,3 @@
   - source code files
   - your compiled code
   - `Makefile`
-
-## Extra Credit - G@M3RS Answers - Delete the section if not doing :)
-
-### Instructions to Install `nsnake`
-
-1. Download the package from `https://github.com/pattonsgirl/CEG2350/raw/main/Labs/Lab10/nsnake-3.0.1.tar.gz`
-
-```
-Replace with command(s)
-```
-
-2. Extract to your home directory:
-
-```
-Replace with command(s)
-```
-
-3. Install `gcc` and `ncurses` library:
-
-```
-Replace with command(s)
-```
-
-4. Compile `nsnake`
-
-```
-Replace with command(s)
-```
-
-5. Play `nsnake`
-
-```
-Replace with command(s)
-```
