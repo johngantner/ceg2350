@@ -10,8 +10,8 @@
 ## Part 2 Answers
 
 1. Compiler: javac
-   - Location: /usr/bin/javac
-   - Version: javac 11.0.20.1
+   - Location: `/usr/bin/javac`
+   - Version: `javac 11.0.20.1`
 2. Command to compile: javac repeat.java
 3. Command to run: java repeat
 
