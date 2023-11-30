@@ -28,14 +28,14 @@
    - Was there a difference in packet content in `tcpdump` when using `http` or `https`?
    - What caused the difference?
 4. Save capture to a file:
-`Saving HTTP capture to a file: sudo tcpdump -i eth0 -w http_capture.pcap 'port 80'`
+- `Saving HTTP capture to a file: sudo tcpdump -i eth0 -w http_capture.pcap 'port 80'`
 
-`Saving HTTPS capture to a file: sudo tcpdump -i eth0 -w https_capture.pcap 'port 443'`
+- `Saving HTTPS capture to a file: sudo tcpdump -i eth0 -w https_capture.pcap 'port 443'`
 
 Read capture from a file:
-`Reading HTTP capture from file: tcpdump -r http_capture.pcap`
+- `Reading HTTP capture from file: tcpdump -r http_capture.pcap`
 
-`Reading HTTPS capture from file: tcpdump -r https_capture.pcap`
+- `Reading HTTPS capture from file: tcpdump -r https_capture.pcap`
 
    Don't forget to `commit` and `push` your capture to your `Lab11` folder.
 
