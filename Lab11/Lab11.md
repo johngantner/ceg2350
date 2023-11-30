@@ -16,7 +16,7 @@
 
 ## Part 2 Answers
 
-1. `tcpdump` command:
+1. `tcpdump` command: `sudo tcpdump -i any -c 100 -w capture_output.pcap`
 
    - How many packets were captured?`37 packets were captured.`
    - Looking through the output, what traffic are you seeing? `I see different types of network traffic, including SSH communication, ARP requests and replies, NTP communication, attempted connections on different ports, and communication attempts with external IPs.`
@@ -42,7 +42,7 @@ Read capture from a file:
 ## Part 3 Answers
 
 1. Command(s) to install `python3` and `pip3`: `sudo apt update, sudo apt install python3, sudo apt install python3-pip`
-2. Run web server with `index.html` contents in your folder:
+2. Run web server with `index.html` contents in your folder: python3 -m http.server 9000
 3. Confirm content is being served:
    - Using `localhost`: `curl http://localhost:9000`
    - Using the system's private IP: `ip a`
