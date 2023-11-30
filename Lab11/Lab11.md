@@ -44,9 +44,9 @@ Read capture from a file:
 1. Command(s) to install `python3` and `pip3`: `sudo apt update, sudo apt install python3, sudo apt install python3-pip`
 2. Run web server with `index.html` contents in your folder:
 3. Confirm content is being served:
-   - Using `localhost`:
-   - Using the system's private IP:
-   - Using the system's public IP:
-4. What's playing?
-5. Command to show `LISTEN`ing processes:
-6. Command to `kill`:
+   - Using `localhost`: `curl http://localhost:9000`
+   - Using the system's private IP: `ip a`
+   - Using the system's public IP: `curl ipinfo.io`
+4. What's playing? `Never Gonna Give You Up - Rick Astley`
+5. Command to show `LISTEN`ing processes: `sudo lsof -i -P -n | grep LISTEN`
+6. Command to `kill`: `kill <PID>`
