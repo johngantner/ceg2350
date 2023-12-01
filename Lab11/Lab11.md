@@ -38,7 +38,7 @@ Read capture from a file:
 ## Part 3 Answers
 
 1. Command(s) to install `python3` and `pip3`: `sudo apt update, sudo apt install python3, sudo apt install python3-pip`
-2. Run web server with `index.html` contents in your folder: python3 -m http.server 9000
+2. Run web server with `index.html` contents in your folder: `python3 -m http.server 9000`
 3. Confirm content is being served:
    - Using `localhost`: `curl http://localhost:9000`
    - Using the system's private IP: `ip a`
