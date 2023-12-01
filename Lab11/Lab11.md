@@ -23,19 +23,15 @@
 
 2. Fancy `tcpdump` command: `sudo tcpdump -i eth0 -n host www.google.com -A`
 
-3. Capturing `google.com` traffic: `sudo tcpdump -i eth0 -w http_capture.pcap 'port 80', sudo tcpdump -i eth0 -w https_capture.pcap 'port 443'`
+3. Capturing `google.com` traffic: `sudo tcpdump -i eth0 -w http_capture.pcap 'host www.google.com', sudo tcpdump -i eth0 -w https_capture.pcap 'host www.google.com'`
    - Was there a difference in output from `curl` when using `http` or `https`? `The difference is that there is encryption in https, The actual data exchanged in an https request is encrypted, while http communication is in plain text and can be viewed in the terminal.`
-   - Was there a difference in packet content in `tcpdump` when using `http` or `https`? Yes, there was a difference dur to the encryption applied in HTTPS.`
-   - What caused the difference? The cause of the difference is the security implemented for HTTPS.
+   - Was there a difference in packet content in `tcpdump` when using `http` or `https`? `Yes, there was a difference due to the encryption applied in HTTPS.`
+   - What caused the difference? `The cause of the difference is the security implemented for HTTPS.`
 4. Save capture to a file:
-- `Saving HTTP capture to a file: sudo tcpdump -i eth0 -w http_capture.pcap 'port 80'`
-
-- `Saving HTTPS capture to a file: sudo tcpdump -i eth0 -w https_capture.pcap 'port 443'`
-
+- `sudo tcpdump -i eth0 -w google_traffic_capture.pcap 'host 172.217.166.196'`
+  
 Read capture from a file:
-- `Reading HTTP capture from file: tcpdump -r http_capture.pcap`
-
-- `Reading HTTPS capture from file: tcpdump -r https_capture.pcap`
+- `tcpdump -r google_traffic_capture.pcap`
 
    Don't forget to `commit` and `push` your capture to your `Lab11` folder.
 
