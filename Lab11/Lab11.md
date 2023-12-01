@@ -6,12 +6,12 @@
 ## Part 1 Answers
 
 1. Hostname of the device: `LAPTOP-FUJOMH5E`
-2. MAC address of the NIC connected to the network: `0A-00-27-00-00-07`
+2. MAC address of the NIC connected to the network: `9C-29-76-BF-0B-D0`
 3. IP address: `192.168.4.33`
 4. Subnet mask: `255.255.252.0`
-5. Gateway address: `fe80::6697:14ff:fe25:d892%12, 192.168.4.1`
+5. Gateway address: `192.168.4.1`
 6. DHCP server address: `192.168.4.1`
-7. DNS server address: `206.225.75.225, 206.225.75.226`
+7. DNS server address: `206.225.75.225 and 206.225.75.226`
 8. Public IP used for communications outside subnet: `208.38.225.50`
 
 ## Part 2 Answers
