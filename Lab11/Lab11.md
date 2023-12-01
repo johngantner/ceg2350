@@ -18,15 +18,15 @@
 
 1. `tcpdump` command: `sudo tcpdump -i any -c 100 -w capture_output.pcap`
 
-   - How many packets were captured?`37 packets were captured.`
-   - Looking through the output, what traffic are you seeing? `I see different types of network traffic, including SSH communication, ARP requests and replies, NTP communication, attempted connections on different ports, and communication attempts with external IPs.`
+   - How many packets were captured?`60 packets were captured.`
+   - Looking through the output, what traffic are you seeing? `When I run my tcpdump command I see that the data link type is LINUX_SLL2. It's listening on any meaning its capturing traffic on all available interfaces. The snapshot length is 262144 bytes while the number of packets dropped by kernel was 0 and there were 61 packets recieved by filter.`
 
 2. Fancy `tcpdump` command: `sudo tcpdump -i eth0 -n host www.google.com -A`
 
 3. Capturing `google.com` traffic: `sudo tcpdump -i eth0 -w http_capture.pcap 'port 80', sudo tcpdump -i eth0 -w https_capture.pcap 'port 443'`
    - Was there a difference in output from `curl` when using `http` or `https`? `The difference is that there is encryption in https, The actual data exchanged in an https request is encrypted, while http communication is in plain text and can be viewed in the terminal.`
-   - Was there a difference in packet content in `tcpdump` when using `http` or `https`?
-   - What caused the difference?
+   - Was there a difference in packet content in `tcpdump` when using `http` or `https`? Yes, there was a difference dur to the encryption applied in HTTPS.`
+   - What caused the difference? The cause of the difference is the security implemented for HTTPS.
 4. Save capture to a file:
 - `Saving HTTP capture to a file: sudo tcpdump -i eth0 -w http_capture.pcap 'port 80'`
 
