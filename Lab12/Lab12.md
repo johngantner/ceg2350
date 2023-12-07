@@ -39,7 +39,7 @@
    - `10.0.0.0 - 10.0.0.255` = 10.0.0.0/24
    - `208.38.225.1 - 208.38.225.254` = 208.38.225.0/24
 2. How you confirmed current rules are bad, and why are they bad. You can confirm these statements by checking AWS security group rules and iptables on your instance for entries allowing any IP (0.0.0.0/0) to connect toy any port. This is bad practice because it exposes the instance to potential attacks, potentiallly leading to unauthorized access and security breaches.
-3. Your implementation details and ![Screenshot](Lab12/Screenshot.png)
+3. Your implementation details and ![Screenshot](Screenshot.png)
 4. Something invalid: If for example, you built your rules to allow SSH only from 192.168.1.0/24, attempting to connect from any other IP would be considered invalid. 
 
 ## Extra Credit Answers:
