@@ -1,7 +1,7 @@
 ## Lab 12
 
 - Name: John Gantner
-- Email: 
+- Email: gantner.6@wright.edu
 
 ## Part 1 Answers:
 
@@ -46,8 +46,11 @@
 
 ### Solve the conflict
 
-1.
-2.
-3.
-4.
-5.
+1. The output said there was a merge conflict and my merge had failed. It then said to fix conflicts then commit the result.
+2. I see conflict markers indicating the conflicting changes.
+3. nano Lab12/problem-child.txt
+4. The output said the conflicts are fixed but it's still merging. 
+5. nano Lab12/problem-child.txt, git status, git add Lab12/problem-child.txt
+git commit -m "Resolve merge conflict in problem-child.txt", git merge --continue, git push origin main.
+
+
