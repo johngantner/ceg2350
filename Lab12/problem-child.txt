@@ -1,1 +1,2 @@
 This is some text in problem-child.txt
+Making improvements to problem-child.txt
