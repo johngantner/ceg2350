@@ -28,7 +28,7 @@
 
 1. sudo adduser colin
 2. ssh-keygen -t rsa -b 2048 -f ~/.ssh/new_key
-3. ssh-copy-id -i ~/.ssh/new_key.pub -i /home/jgantner/.ssh/new_key ssh John
+3.cat /home/jgantner/.ssh new_key.pub | ssh John 'cat >> ~/.ssh/authorized_keys'
 4. ssh -i ~/.ssh/new_key.pem colin@44.216.84.103
 
 ## Part 4 Answers
@@ -38,7 +38,7 @@
    - `130.108.0.0 - 130.108.255.255` = 130.108.0.0/16
    - `10.0.0.0 - 10.0.0.255` = 10.0.0.0/24
    - `208.38.225.1 - 208.38.225.254` = 208.38.225.0/24
-2. How you confirmed current rules are bad, and why are they bad. You can confirm these statements by checking AWS security group rules and iptables on your instance for entries allowing any IP (0.0.0.0/0) to connect to any port. This is bad practice because it exposes the instance to potential attacks, potentially leading to unauthorized access and security breaches.
+2. How you confirmed current rules are bad, and why are they bad. You can confirm these rules by checking AWS security group rules and iptables on your instance for entries allowing any IP (0.0.0.0/0) to connect to any port. This is bad practice because it exposes the instance to potential attacks, potentially leading to unauthorized access and security breaches.
 3. Your implementation details and ![Screenshot](Screenshot.png)
 4. Something invalid: If for example, you built your rules to allow SSH only from 192.168.1.0/24, attempting to connect from any other IP would be considered invalid. 
 
