@@ -1,2 +1,6 @@
 This is some text in problem-child.txt
+
 Making edits to problem-child.txt on the main branch
+
+Making improvements to problem-child.txt
+
